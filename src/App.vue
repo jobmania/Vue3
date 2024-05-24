@@ -1,7 +1,17 @@
-<script setup></script>
-
 <template>
-	<div>안녕</div>
+	<div>
+		<button>Counter :{{ counter }}</button>
+	</div>
 </template>
 
-<style></style>
+<script>
+export default {
+	data() {
+		return {
+			counter: 0,
+		};
+	},
+};
+</script>
+
+<style lang="scss" scoped></style>
